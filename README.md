@@ -1,6 +1,10 @@
 # Spotify Analytics
 
 **World map working with multi-source API + Vercel deployment ready!**
+<img width="1222" height="945" alt="image" src="https://github.com/user-attachments/assets/b9a6ce38-25c3-436f-9344-b9ff927f75c1" />
+<img width="1224" height="1090" alt="image" src="https://github.com/user-attachments/assets/29522e77-1348-4ed5-b85a-7a79ef7f5fb0" />
+<img width="1246" height="980" alt="image" src="https://github.com/user-attachments/assets/7106b716-4a05-4096-9263-d594c9b80041" />
+<img width="1236" height="1181" alt="image" src="https://github.com/user-attachments/assets/7d96b275-8941-47e1-bb75-f9fa224d1d5f" />
 
 ## 🚀 Quick Start (5 minutes)
 
