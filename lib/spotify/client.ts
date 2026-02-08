@@ -145,9 +145,9 @@ export class SpotifyClient {
    * Retry logic with exponential backoff
    */
   private async withRetry<T>(
-    fn: () => Promise<T>,
-    retries = CONFIG.MAX_RETRIES
-  ): Promise<T> {
+    fn: () => Promise<T>, 
+    retries: number = CONFIG.MAX_RETRIES): 
+  Promise<T> {
     try {
       return await fn();
     } catch (error) {
