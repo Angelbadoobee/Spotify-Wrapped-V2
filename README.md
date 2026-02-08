@@ -1,12 +1,6 @@
-# Spotify Analytics - Complete Fixed Version
+# Spotify Analytics
 
 **World map working with multi-source API + Vercel deployment ready!**
-
-## 🎯 What's Fixed
-
-✅ **World Map** - Now shows 80-90% of your artists' countries (was 10-20%)  
-✅ **Vercel Deployment** - Ready to deploy with all config files  
-✅ **Multi-source APIs** - Uses Wikidata + MusicBrainz + local database  
 
 ## 🚀 Quick Start (5 minutes)
 
