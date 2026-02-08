@@ -95,16 +95,17 @@ export default function OverviewPage() {
           const countries = Array.from(countryMap.entries())
             .map(([iso, count]) => {
               // Find country name from artistCountries
-              const countryEntry = Object.values(artistCountries).find(
-                (c: any) => c.iso === iso
-              );
-              return {
-                country: countryEntry?.country || iso,
-                iso,
-                count,
-              };
-            })
-            .sort((a, b) => b.count - a.count);
+                const countryEntry = Object.values(artistCountries).find(
+                  (c): c is { country: string; iso: string } => 
+                    c !== null && typeof c === 'object' && 'iso' in c && c.iso === iso
+                );
+                return {
+                  country: countryEntry?.country || iso,
+                  iso,
+                  count,
+                };
+              })
+              .sort((a, b) => b.count - a.count);
           
           setCountryData(countries);
         }
